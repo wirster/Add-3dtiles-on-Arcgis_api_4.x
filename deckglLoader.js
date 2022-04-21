@@ -35,13 +35,6 @@ export default class DeckLoader {
               isTileset: true
             }
           }
-          // pickable:true, // 允许发生拾取事件
-          // onClick:({object, x, y}) => {
-          //   console.log(object,x,y)
-          // },
-          // onHover:({object, x, y}) => {
-          //   console.log(object,x,y)
-          // }
         })
       )
     })
