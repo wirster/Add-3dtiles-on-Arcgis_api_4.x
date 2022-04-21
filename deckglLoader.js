@@ -72,4 +72,11 @@ export default class DeckLoader {
       layers: []
     })
   }
+  /**
+   * @description: 销毁释放
+   */
+   destroy(){
+    externalRenderers.remove(this.view, this.renderer)
+    this.renderer.dispose();
+  }
 }
